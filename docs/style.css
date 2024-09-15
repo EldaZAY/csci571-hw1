@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    font: normal Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.margined {
+    margin: 3em;
+}
+
+.colored-block {
+    background-color: #af9453;
+    color: white;
+    /* height: 100%; */
+}
+
+.btn {
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin: 3em;
+    padding: 1em;
+    font-size: medium;
+    /* font-weight: lighter; */
+}
+
+section {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    height: 33em;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    gap: 3em;
+}
+
+section div{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section h3{
+    margin: 2em 0em;
+    font-size: xx-large;
+    font-weight: normal;
+    letter-spacing: 0.3em;
+}
+
+section p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    line-height: 1.6;
+}
+
+
+section .colored-block {
+    background-image: url(images/flower.png);
+    background-size: cover;
+    background-position: center;
+    padding: 1.5em;
+}
+
+
+section#sec-slogan {
+    background-image: url(images/image3.png);
+    background-size: 1239px;
+    height: 40em;
+}
+
+#sec-services .colored-block {
+    flex: 1;
+}
+
+#sec-services .img-container {
+    flex: 2;
+}
+
+section#sec-gallery {
+    background-image: url(images/image2.png);
+    height: 39em;
+}
+
+#sec-gallery .colored-block{
+    background-image: url(images/flower-mirrored.png);
+    float: right;
+    width: 30%;
+}
+
+
+
+
+/* header {
+
+} */
