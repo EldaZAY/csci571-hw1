@@ -44,7 +44,7 @@ section {
     gap: 3em;
 }
 
-section#sec-quote, section#sec-slogan{
+#sec-quote, section#sec-slogan{
     align-items: center;
 }
 
@@ -80,7 +80,7 @@ section .colored-block {
 }
 
 
-section#sec-slogan {
+#sec-slogan {
     background-image: url(images/image3.png);
     background-size: 100vw;
     width: 100vw;
@@ -95,7 +95,7 @@ section#sec-slogan {
     flex: 2;
 }
 
-section#sec-gallery {
+#sec-gallery {
     background-image: url(images/image2.png);
     height: 60vw;
     justify-content: end;
@@ -106,6 +106,22 @@ section#sec-gallery {
     width: 20%;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 10vw; */
+    padding: 2em;
+}
+footer .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+    font-size: x-small;
+    
+}
 
 
 
