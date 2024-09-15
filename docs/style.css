@@ -12,7 +12,7 @@ img {
 
 
 .margined {
-    margin: 3em;
+    margin: 5vw;
 }
 
 .colored-block {
@@ -25,9 +25,9 @@ img {
     color: white;
     border: 1px solid white;
     display: inline-block;
-    margin: 3em;
-    padding: 1em;
-    font-size: medium;
+    /* margin: 3em; */
+    padding: 0.5em;
+    font-size: smaller;
     /* font-weight: lighter; */
 }
 
@@ -36,32 +36,38 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
-    height: 33em;
+    width: 90vw;
+    height: 50vw;
     display: flex;
     align-content: center;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 3em;
 }
+
+section#sec-quote, section#sec-slogan{
+    align-items: center;
+}
+
 
 section div{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 section h3{
-    margin: 2em 0em;
-    font-size: xx-large;
+    margin: 1em 0em;
+    font-size: x-large;
     font-weight: normal;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.4em;
 }
 
 section p{
     font-family:'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: medium;
     font-weight: 100;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
     line-height: 1.6;
 }
 
@@ -70,14 +76,15 @@ section .colored-block {
     background-image: url(images/flower.png);
     background-size: cover;
     background-position: center;
-    padding: 1.5em;
+    padding: 4em 2em;
 }
 
 
 section#sec-slogan {
     background-image: url(images/image3.png);
-    background-size: 1239px;
-    height: 40em;
+    background-size: 100vw;
+    width: 100vw;
+    height: 70vw;
 }
 
 #sec-services .colored-block {
@@ -90,13 +97,13 @@ section#sec-slogan {
 
 section#sec-gallery {
     background-image: url(images/image2.png);
-    height: 39em;
+    height: 60vw;
+    justify-content: end;
 }
 
 #sec-gallery .colored-block{
     background-image: url(images/flower-mirrored.png);
-    float: right;
-    width: 30%;
+    width: 20%;
 }
 
 
