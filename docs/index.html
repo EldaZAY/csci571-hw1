@@ -8,10 +8,10 @@
     </head>
     <body>
         <header>
-            <h1>MAIN EVENTS</h1>
-            <nav>
-                <ul>
-                    <li><a href="page2.html#home">Home</a></li>
+            <nav class="flex-row">
+                <h1 class="brown">MAIN EVENTS</h1>
+                <ul class="flex-row" id="nav-bar">
+                    <li><a href="page2.html#home" id="nav-home">Home</a></li>
                     <li><a href="page2.html#services">Services</a></li>
                     <li><a href="page2.html#about">About</a></li>
                     <li><a href="page2.html#gallery">Gallery</a></li>
@@ -21,35 +21,35 @@
         </header>
         <main>
             <section id="sec-slogan">
-                <div><h2>Creating Unforgettable Memories</h2></div>
+                <div><h2 class="serif">Creating<br>Unforgettable<br>Memories</h2></div>
             </section>
             <section class="margined" id="sec-services">
                 <div class="colored-block">
                     <h3>SERVICES</h3>
-                    <p class="description">Turn the dream into a reality</p>
+                    <p class="description serif">Turn the dream into a reality</p>
                     <a href="#" class="btn">DISCOVER</a>
                 </div>
                 <div class="img-container">
                     <img src="images/image1.png" alt="Services">
                 </div>
             </section>
-            <section class="margined" id="sec-quote">
-                <div class="arrow"><p>&larr;</p></div>
+            <section class="margined flex-row" id="sec-quote">
+                <div><p class="arrow brown">&larr;</p></div>
                 <div>
-                    <p>
-                        "
+                    <p class="icon serif">
+                        ❞
                     </p>
-                    <p class="quote">
+                    <p class="quote serif">
                         I'm a testimoial. Click to edit this text and say something nice about you and your services.
                     </p>
-                    <small>Jimmy and Janice</small>
+                    <small class="brown">Jimmy and Janice</small>
                 </div>
-                <div class="arrow"><p>&rarr;</p></div>
+                <div><p class="arrow brown">&rarr;</p></div>
             </section>
             <section class="margined" id="sec-gallery">
                 <div class="margined colored-block">
                     <h3>GALLERY</h3>
-                    <p class="description">Unforgettable Memories</p>
+                    <p class="description serif">Unforgettable Memories</p>
                     <a href="#" class="btn">DISCOVER</a>
                 </div>
             </section>
@@ -57,9 +57,9 @@
 
         </main>
         <footer class="margined colored-block">
-            <div class="contact">
+            <div class="info">
                 <p>500 Temple Street<br>San Francisco<br>CA 94155</p>
-                <p>Tel: 123-555-1212<br>Fax: 123-555-1213<br>info@mainevents.com</p>
+                <p id="contact-info">Tel: 123-555-1212<br>Fax: 123-555-1213<br>info@mainevents.com</p>
                 <p>&copy; 2023 by Main Events.</p>
             </div>
             <div>

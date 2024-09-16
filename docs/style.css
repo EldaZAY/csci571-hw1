@@ -5,9 +5,32 @@
     list-style: none;
 }
 
+h1 {
+    font-size: medium;
+    margin: 0em 4em;
+}
+
+h2 {
+    color: white;
+    font-size: 3em;
+    font-weight: lighter;
+    letter-spacing: 0.3em;
+}
+
 img {
     height: 100%;
     object-fit: cover;
+}
+
+header {
+    padding: 1.5em 3em;
+    position: static;
+    background-color: white;
+    /* width: 100vw; */
+}
+
+.serif {
+    font-family: 'Bookman Old Style', serif;
 }
 
 
@@ -25,10 +48,35 @@ img {
     color: white;
     border: 1px solid white;
     display: inline-block;
-    /* margin: 3em; */
     padding: 0.5em;
     font-size: smaller;
-    /* font-weight: lighter; */
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brown {
+    color: #af9453;
+}
+
+#nav-bar {
+    gap: 2em;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #000;
+}
+
+a#nav-home {
+    color: #756337;
+}
+
+#nav-bar a:hover {
+    color: #756337;
 }
 
 section {
@@ -64,13 +112,36 @@ section h3{
 }
 
 section p{
-    font-family:'Times New Roman', Times, serif;
     font-size: medium;
     font-weight: 100;
     letter-spacing: 0.2em;
     line-height: 1.6;
 }
 
+.icon{
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.arrow{
+    font-size: 3em;
+    transform: scaleX(1.2);
+    margin: 0.5em;
+}
+
+.quote{
+    margin: 2em;
+    width: 45vw;
+    font-size: 1.8em;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+
+small {
+    margin: 2em;
+    font-size: medium;
+    font-weight: bold;
+}
 
 section .colored-block {
     background-image: url(images/flower.png);
@@ -111,16 +182,22 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    /* height: 10vw; */
+    height: 6em;
     padding: 2em;
 }
-footer .contact{
+footer .info{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 2em;
     font-size: x-small;
-    
+}
+
+#contact-info {
+    border-left: 1px solid;
+    padding-left: 2em;
+    border-right: 1px solid;
+    padding-right: 2em;
 }
 
 
